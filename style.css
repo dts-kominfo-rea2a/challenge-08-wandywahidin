@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    width: 40%;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#todo-title {
+    margin: 10px 0 30px 0;
+    font-size: 2em;
+}
+
+#todo-subtitle {
+    margin: 0 0 20px 0;
+    font-size: 1.2em;
+}
+#todo-input {
+    padding: 3px;
+    margin: 3px;
+}
+#todo-submit {
+    padding: 5px;
+    margin: 3px;
+    background: blue;
+    color: white;
+    border-radius: 10%;
+    border: none;
+}
+#todo-submit:hover {
+    background-color: aqua;
+}
+#todo-output {
+    margin: 20px 0;
+   display: flex;
+   flex-direction: column;
+}
+#todo-output li {
+    margin: 5px;
+}
